@@ -1,0 +1,7 @@
+/* pages/login/login.wxss */
+button {
+    width: 80%;
+    margin-top: 20rpx;
+    background-color: #1296db;
+    color: white;
+  }

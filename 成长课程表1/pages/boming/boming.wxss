@@ -1,0 +1,35 @@
+.container {
+  margin: 20rpx;
+}
+.container button {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: #1296db;
+  color: white;
+}
+.container input {
+  border-bottom: 2rpx solid #b8b5b5;
+}
+/* 未选中的样式 */
+radio .wx-radio-input {
+  width: 34rpx;
+  height: 34rpx;
+  border-radius: 50%;
+  /* 圆角 */
+  /* border: 2rpx solid red; */
+}
+/* 选中后 背景及勾 的样式 */
+radio .wx-radio-input.wx-radio-input-checked::before {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  /* 圆角 */
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 30rpx;
+  /* 勾大小 */
+  color: #fff;
+  /* 白色勾  */
+  background: #1296db;
+  transform: translate(-50%, -50%) scale(1);
+}

@@ -1,0 +1,16 @@
+<!--pages/shiting/shiting.wxml-->
+<view class="container">
+    <view >
+    当日日期： {{logs}}</view>  
+    <form bindsubmit="submit">
+    　　
+        <view>课程时间: </view>
+        <checkbox-group name="time">
+    　　　　<view><label><radio value="9-10" />9：00——12：00</label></view>
+    　　　　<view><label><radio value="4-5" />16：00——17：00</label></view>
+    　　　　<view><label><radio value="5-6" />17：00——18：00</label></view>
+    　　　　<view><label><radio value="7-8" />19：00——20：00</label></view>
+    　　　</checkbox-group>
+    　　<button form-type="submit">报名</button>
+    　 </form> 
+</view>

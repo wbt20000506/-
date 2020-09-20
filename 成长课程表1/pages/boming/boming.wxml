@@ -1,0 +1,22 @@
+<!--pages/boming/boming.wxml-->
+<view class="container">　　    
+    <form bindsubmit="submit">
+    　　 <view>姓名：</view>
+    　 <input name="name" placeholder="请输入姓名" />
+    　　
+    　　 <radio-group name="gender">
+         <view>性别：</view>
+    　　　<view><label><radio value="男" />男</label></view>
+    　　　<view><label><radio value="女" />女</label></view>
+    　　</radio-group>
+    　　　
+    　　　<radio-group name="skills">
+        <view>报名类型: </view>
+    　　　　<view><label><radio value="试听" />试听课99元15节</label></view>
+    　　　　<view><label><radio value="月卡" />月卡课999元</label></view>
+    　　　　<view><label><radio value="季卡" />季卡课2999元</label></view>
+    　　　　<view><label><radio value="年卡" />年卡课4999元</label></view>
+    　　　</radio-group>
+    　　<button form-type="submit">报名</button>
+    　 </form> 
+</view>

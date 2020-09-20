@@ -1,0 +1,27 @@
+<view class="class">
+    <Search></Search>
+<view class="index-swiper">
+    <swiper autoplay="{{true}}"  circular="{{true}}">
+        <swiper-item class="" item-id="" wx:for="{{item}}" wx:key="_id">
+            <navigator >
+                <image mode="widthFix" src="{{item.image}}"></image>
+            </navigator>
+        </swiper-item>
+    </swiper>
+</view>
+<view ><Shangjia></Shangjia></view>
+<view class="index_cate">
+    <navigator  url="/pages/kecheng/kecheng">
+        <image mode="widthFix" src="{{item2[0].image}}"></image>
+        <text style="font-size:0.8rem;color:#999999">课程</text>
+    </navigator>
+    <navigator url="/pages/shiting/shiting" >
+        <image mode="widthFix" src="{{item2[1].image}}"></image>
+           <text style="font-size:0.8rem;color:#999999">请假</text>
+    </navigator>
+    <navigator  url="/pages/boming/boming" >
+        <image mode="widthFix" src="{{item2[2].image}}"></image>
+           <text style="font-size:0.8rem;color:#999999">报名</text>
+    </navigator>
+</view>
+</view>

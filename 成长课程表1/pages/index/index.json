@@ -1,0 +1,9 @@
+{
+    
+    "usingComponents":{
+        "Search":"../../components/search/search",
+        "Shangjia":"../../components/shangjia/shangjia"
+    },
+    "navigationBarTitleText": "成长课程表"
+
+}
